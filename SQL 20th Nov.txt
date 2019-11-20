@@ -1,0 +1,70 @@
+  group by   : to summarize data by category 
+		Example:
+			- gender wise head count
+			- country wise head count
+		select gender, count(gender)
+		from <table> group by gender;
+			
+  having : is condition which can be apply with group by	 
+		Example:
+		select country, count(country)
+		from <table> group by country
+		having count(country)>2 ;	
+  switch when : is conditional statement
+		Example:
+		select name, case when gender='male' 
+				then 
+					'm'
+				else
+					'f'
+				end
+			from <table>;
+		
+  union : to merge two or more than two tables vertically
+	Table structure(no of column and data type should be same)
+	There are following types of union:
+	i. union 	: to merge two tables and return unique rows
+	ii. union all 	: to merge two tables and return all rows(duplicate rows as well)
+	Example:
+	select * from <table>
+	union 
+	select * from <table>;
+
+	select * from <table>
+	union  all
+	select * from <table>;
+
+
+  join 	: to merge two or more than two tables horizentally 
+	: at least one column should be same in all sources/tables
+	: there are following types of join
+	i. inner join 	: return common rows 
+	ii. outer join 	
+		a. left join : return all rows from left table and matching from right table	
+		b. right join : return all rows from right table and matching from left table 
+
+	Example:
+	emp
+	eid name gender ..
+	1    raman male
+	2    jatin ...
+	3    divya  ..
+	
+	sal
+	ecode basic hra
+	1     445655  56
+	2   6666    3333
+
+
+	output:
+	eid name basic hra 
+	
+	example:
+	select e.eid,e.name,s.basic, s.hra
+	from emp as e inner join sal as s
+	on e.eid = s.eid;
+
+  data type
+  constraints 
+
+
