@@ -1,0 +1,43 @@
+TestNG: test for next generation
+================================================
+How to install or setup the testng:
+	Go to Eclipse help menu -> market place 
+	
+
+Testng Annotation:
+	is predefined properties 
+	
+	@BeforeSuite		1	: exectute one time
+	@AfterSuite		9	: exectute one time
+	@BeforeClass		3	: exectute one time
+	@AfterClass		8	: exectute one time
+	@BeforeTest		2	: exectute one time
+	@AfterTest		7	: exectute one time
+	@BeforeMethod		4	: exectute before every @Test
+	@AfterMetod		6	: exectute after every @Test	
+	@Test			5	: @Test can be multiple in a class 
+	@DataProvider 			: is container of data which can mapped with @Test	
+	
+	
+Priority:
+	1-10
+	High to Low
+
+Enable/Disable:
+	Enabled=flase   is equal @Ignore 
+
+Group:
+	multiple @Test can be mapped in one group 
+	-one function can be part of multiple group 
+Depdends:
+	onMethods
+	onGroup
+
+TestNG Suite : is XML file 
+	 
+ 
+@DataProvider	
+
+Repots:
+	right click on project then click on refresh 
+	u will see output

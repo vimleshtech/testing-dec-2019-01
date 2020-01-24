@@ -1,0 +1,55 @@
+Junit: is framwork (is standard approach/pre defined structure to implement the code)
+
+There are following types of junit class:
+	i. junit class
+		Annotation: is predefined behaviour or properties
+		@BeforeClass		1	execute one time (one)
+		@AfterClass		5	execute one time (one)	
+		@Before			2	execute before every 							@Test (can be multiple)
+		@After			4	execute after every 							@Test(can be multiple)
+		@Test			3	(can be multiple)
+		@Ignore			- skipt he test function 
+			
+	ii. junit suite  : is collection of classes 
+		 : we should use the suite for regression testing
+		 
+	Limitations of Junit:
+		there is priority option 
+
+Properties file:
+		file: mydata.properties
+		import java.util.Properties;
+		getProperties("key");
+
+DataFile:
+		execl file 
+		library or jar file: apache poi
+		http://www.java2s.com/Code/Jar/p/Downloadpoi39jar.htm
+
+
+
+		There are following inbuilt classes:
+			HSSFWorkbook
+			HSSFSheet
+			HSSFRow
+			HSSFCell 
+
+
+		Methods:
+			getPhy....()
+			getNumberRo...
+			getCellCounts
+
+			getStringvalue()
+			getNumericvalue()
+			
+			
+
+		
+		 
+		
+
+
+	
+
+	
