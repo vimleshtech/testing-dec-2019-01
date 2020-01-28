@@ -1,0 +1,19 @@
+TestNG listner  : will work only for testng classes 
+=======================================================
+
+
+
+
+log4j : will work for all the classes 
+=========================================
+is log manager for java 
+
+	
+	
+	1. add log4 library 
+		http://www.java2s.com/Code/Jar/l/Downloadlog4jjar.htm
+
+	2. create  log4j.properties file in src folder 
+
+	3. create the code in every class file 
+	private final static Logger logger = Logger.getLogger(Test2.class);
